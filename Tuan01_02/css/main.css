@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: auto;
+  font-family: monospace;
+}
+.heading {
+  margin: 8px;
+  height: auto;
+  text-align: center;
+  font-size: 50px;
+  background-color: lightgreen;
+  border: 2px solid green;
+}
+#bai2 .content {
+  padding: 5px;
+  margin: 10px;
+  font-weight: bolder;
+  background-color: bisque;
+}
+.title {
+  font-weight: bolder;
+}
+#bai3 .content .p1 {
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0px 1px 5px 1px black;
+}
+#bai3 .content .p2 {
+  padding: 5px;
+  margin: 10px;
+  background-color: sandybrown;
+  box-shadow: 1px 1px 5px 1px black;
+}
+#bai3 .content .p2 .p2a {
+  text-align: left;
+}
+#bai3 .content .p2 .p2b {
+  text-align: center;
+}
+#bai3 .content .p2 .p2c {
+  text-align: right;
+}
+#bai4 .content .l1{
+  margin: auto;
+  width: 30%;
+  box-shadow: 0px 1px 5px 1px black;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
