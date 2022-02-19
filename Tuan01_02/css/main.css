@@ -18,6 +18,9 @@ body {
   font-weight: bolder;
   background-color: bisque;
 }
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
 .title {
   font-weight: bolder;
 }
@@ -43,15 +46,91 @@ body {
 }
 #bai4 .content .l1{
   margin: auto;
-  width: 30%;
+  width: fit-content;
   box-shadow: 0px 1px 5px 1px black;
 }
 #bai4 .content .l2{
   margin: auto;
-  width: 50%;
+  width: fit-content;
   background-color: coral;
   box-shadow: 0px 1px 5px 1px black;
 }
-h1, h2, h3, h4, h5, h6 {
+#bai5 .content .a {
+  margin: auto;
+  width: fit-content;
+  box-shadow: 0px 1px 5px 1px black;
+}
+#bai5 .content .a header {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px;
+}
+#bai5 .content .a nav ul {
+  margin: 20px;
+  padding: 0px;
+}
+#bai5 .content .a nav ul li {
+  display: inline;
+}
+#bai5 .content .a article section {
+  margin: 20px;
+  margin-bottom: 60px;
+}
+#bai5 .content .a article section header {
+  margin: 0px;
+}
+#bai5 .content .a footer {
+  margin-left: 20px;
+}
+
+#bai5 .content .b {
+  margin: auto;
+  width: fit-content;
+  box-shadow: 0px 1px 5px 1px black;
+}
+#bai5 .content .b header {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px;
+}
+#bai5 .content .b nav p {
+  margin: 20px;
+}
+#bai5 .content .b nav ul {
+  margin: 20px;
+}
+#bai5 .content .b article section {
+  margin: 20px;
+}
+#bai5 .content .b article section header {
+  margin: 0px;
+}
+#bai6 .content .a {
+  margin: auto;
+  margin-bottom: 20px;
+  width: fit-content;
+  background-color: burlywood;
+  box-shadow: 0px 1px 5px 1px black; 
+  padding: 10px;
   text-align: center;
+}
+#bai6 .content .a table tr td {
+  padding: 10px;
+}
+#bai6 .content .b {
+  margin: auto;
+  margin-bottom: 20px;
+  width: fit-content;
+  background-color: burlywood;
+  box-shadow: 0px 1px 5px 1px black; 
+  padding: 10px;
+}
+.white {
+  background-color: white;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
 }
