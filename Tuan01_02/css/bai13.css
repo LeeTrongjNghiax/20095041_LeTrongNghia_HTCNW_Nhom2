@@ -1,0 +1,18 @@
+.content {
+  width: fit-content;
+  margin: auto;
+  box-shadow: 0px 1px 5px 1px black;
+}
+label {
+  margin: 5px;
+}
+input {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+#buttonContainer {
+  text-align: center;
+}
+button {
+  margin-bottom: 20px;
+}
