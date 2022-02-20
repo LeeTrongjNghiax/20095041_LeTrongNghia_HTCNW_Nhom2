@@ -1,0 +1,18 @@
+.content {
+  width: fit-content;
+  margin: auto;
+  background-color: goldenrod;
+  box-shadow: 0px 1px 5px 1px black;
+}
+h2 {
+  text-align: center;
+}
+p, table {
+  margin: 20px;
+}
+#buttonContainer {
+  text-align: center;
+}
+button {
+  margin: 0px 10px 10px;
+}

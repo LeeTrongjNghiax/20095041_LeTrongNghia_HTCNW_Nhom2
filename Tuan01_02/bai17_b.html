@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bai17_b.css">
+  <title>Bai 17_b</title>
+</head>
+<body>
+  <div class="content">
+    <form>
+      <label for="browsers">Browser:</label>
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist><br>
+
+      <label for="username">Username:</label>
+      <input id="username"><br>
+
+      <label for="encryption">Encryption:</label>
+      <input list="encryption">
+      <datalist id="encryption">
+        <option value="2048 (High Grade)">
+        <option value="2049 (High Grade)">
+        <option value="2050 (High Grade)">
+        <option value="2051 (High Grade)">
+        <option value="2052 (High Grade)">
+      </datalist><br>
+
+      <input type="range" min="0" max="100" value="60"><br>
+      <input type="number" value="50"><br>
+
+      <label for="birthday">Birthday:</label>
+      <input id="birthday" type="date"><br>
+
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" value="#ff0000"><br>
+
+      <label for="birthday2">Birthday (month and year):</label>
+      <input id="birthday2" type="month"><br>
+
+      <label for="week">Select a week:</label>
+      <input id="week" type="week"><br>
+
+      <label for="time">Select a time:</label>
+      <input id="time" type="time"><br>
+
+      <label for="birthday3">Birthday (date and time):</label>
+      <input id="birthday3" type="datetime"><br>
+
+      <label for="email">E-mail:</label>
+      <input id="email" type="email"><br>
+
+      <label for="search">Search Google:</label>
+      <input id="search" type="search"><br>
+
+      <label for="telephone">Telephone:</label>
+      <input id="telephone" type="tel"><br>
+
+      <label for="homepage">Add your homepage:</label>
+      <input id="homepage" type="text"><br>
+
+      <button type="submit">Submit</button>
+      <p>
+        <b>Note:</b> The datalist tag is not supported in Safari or IE9 (and earlier).
+      </p>
+    </form>
+  </div>
+</body>
+</html>

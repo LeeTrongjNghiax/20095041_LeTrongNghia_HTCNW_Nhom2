@@ -1,0 +1,12 @@
+.content {
+  width: fit-content;
+  margin: auto;
+  box-shadow: 0px 1px 5px 1px black;
+}
+label,
+input[type="range"],
+input[type="number"],
+button,
+p {
+  margin: 15px;
+}

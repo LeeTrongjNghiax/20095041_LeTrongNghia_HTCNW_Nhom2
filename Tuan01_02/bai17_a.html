@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bai17_a.css">
+  <title>Bai 17_a</title>
+</head>
+<body>
+  <div class="content">
+    <h2>Survey Form</h2>
+    <p>
+      If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department.
+      Answering any question is optional, and all information will be kept strictly confidential.
+      Thank you very much for your time!
+    </p>
+    <form>
+      <table>
+        <tr>
+          <td>1.</td>
+          <td><label for="name">What is your name?</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input id="name"></td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td><label>What is your date of birth?</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <label for="month">Month: </label>
+            <input id="month" type="month">
+            <label for="date">Date: </label>
+            <input id="date" type="number">
+            <label for="year">Year: </label>
+            <input id="year" type="year">
+          </td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td><label for="address">What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <textarea id="address" rows="4" cols="50" placeholder="Number/P.O. Box/Route:&#10;Street/Avenue/Road:&#10;City:&#10;State/Zip:"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td><label for="email">What is your email address?</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input id="email" type="email"></td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td><label for="yn">Have you viewed our online product catalog?</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <div id="ynd">
+              <input id="yn" type="checkbox" value="vcr">VCR<br>
+              <input id="yn" type="checkbox" value="bigscreentv">Big Screen TV<br>
+              <input id="yn" type="checkbox" value="audioequipment">Audio Equipment<br>
+              <input id="yn" type="checkbox" value="videoequipment">Video Equipment<br>
+              <input id="yn" type="checkbox" value="cameraequipment">Camera Equipment<br>
+              <input id="yn" type="checkbox" value="other">Other
+              <input placeholder="Please List">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>7.</td>
+          <td><label for="ques">Do you have any questions, comments or suggestions before proceeding to the Order Form?</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <textarea id="address" rows="4" cols="50" placeholder="Your Input:"></textarea>
+          </td>
+        </tr>
+      </table>
+      <div id="buttonContainer">
+        <button type="submit">Send Form</button>
+        <button type="reset">Clear Form</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
