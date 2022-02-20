@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bai16.css">
+  <title>Bai 16</title>
+</head>
+<body>
+  <div class="content">
+    <h1>Travel Reservation Form</h1>
+    <p>* denotes mandatory</p>
+    <form>
+      <label for="name">Full name*:</label><br>
+      <input id="name" name="name" type="text" placeholder="FirstName LastName" required><br>
+      
+      <label for="email">Email address*:</label><br>
+      <input id="email" name="email" type="text" placeholder="EMAIL_ADDRESS" required><br>
+
+      <label for="a">Select your package*:</label><br>
+      <select name="a" id="a">
+        <option value="goa">Goa</option>
+        <option value="facebook">Facebook</option>
+        <option value="twitter">Twitter</option>
+      </select><br>      
+      
+      <label for="date">Arrival date*:</label><br>
+      <input id="date" name="date" type="datetime-local" placeholder="m/d/y"><br>
+      
+      <label for="numper">Number of persons*:</label><br>      
+      <input id="numper" name="numper" type="number" placeholder="UNKNOWN_TYPE"><br>
+      
+      <label for="avail">What would you want to avail?*</label><br>
+      <div id="avail">
+        <form>
+          Boarding<input id="avail" type="checkbox" name="avail" value="boarding"><br>
+          Fooding<input id="avail" type="checkbox" name="avail" value="fooding"><br>
+          Sight Seeing<input type="checkbox" id="avail" name="avail" value="sightseeing">
+        </form>
+      </div>
+      
+      <label for="coupon">Discount Coupon code:</label><br>
+      <input id="coupon" name="coupon" type="text" placeholder="UNKNOWN_TYPE"><br>
+      
+      <label for="terms">Terms and Conditions*</label><br> 
+      <div>
+        <form id="terms">
+          <input id="term" type="radio" name="term" value="agree">I agree
+          <input id="term" type="radio" name="term" value="disagree">I disagree<br>      
+        </form>
+      </div>
+      
+      <button type="submit">Complete reservation</button>
+    </form>
+  </div>
+</body>
+</html>

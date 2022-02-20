@@ -1,0 +1,11 @@
+.content {
+  width: fit-content;
+  margin: auto;
+  box-shadow: 0px 1px 5px 1px black;
+}
+fieldset {
+  margin: 10px;
+}
+legend {
+  font-style: italic;
+}
