@@ -117,14 +117,6 @@ h1, h2, h3, h4, h5, h6 {
 #bai6 .content .a table tr td {
   padding: 10px;
 }
-#bai6 .content .b {
-  margin: auto;
-  margin-bottom: 20px;
-  width: fit-content;
-  background-color: burlywood;
-  box-shadow: 0px 1px 5px 1px black; 
-  padding: 10px;
-}
 .white {
   background-color: white;
 }
@@ -133,4 +125,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 .yellow {
   background-color: yellow;
+}
+#bai6 .content .b {
+  margin: auto;
+  margin-bottom: 20px;
+  width: fit-content;
+  background-color: burlywood;
+  box-shadow: 0px 1px 5px 1px black; 
+  padding: 10px;
+}
+#bai6 .content .c {
+  margin: auto;
+  margin-bottom: 20px;
+  width: fit-content;
+  background-color: burlywood;
+  box-shadow: 0px 1px 5px 1px black; 
+  padding: 10px;
+  text-align: center;
+}
+#bai6 .content .c table caption {
+  font-weight: bolder;
+  color: blueviolet;
+}
+.language {
+  background-color: violet;
+}
+#bai6 .content .c table tr td {
+  background-color: pink;
+  color: blue;
+}
+.number {
+  background-color: lightskyblue;
+}
+#bai7 .content {
+  margin: auto;
+  width: fit-content;
+  box-shadow: 0px 1px 5px 1px black; 
 }

@@ -1,0 +1,10 @@
+table {
+  border: 2px solid orange;
+}
+table th {
+  background-color: cyan;
+}
+table tr td {
+  background-color: lightyellow;
+  color: darkblue;
+}

@@ -1,0 +1,23 @@
+.title {
+  font-weight: bolder;
+}
+.content .p1 {
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0px 1px 5px 1px black;
+}
+.content .p2 {
+  padding: 5px;
+  margin: 10px;
+  background-color: sandybrown;
+  box-shadow: 1px 1px 5px 1px black;
+}
+.content .p2 .p2a {
+  text-align: left;
+}
+.content .p2 .p2b {
+  text-align: center;
+}
+.content .p2 .p2c {
+  text-align: right;
+}

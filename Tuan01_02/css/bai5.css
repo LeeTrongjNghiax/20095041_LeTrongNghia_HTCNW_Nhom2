@@ -1,0 +1,50 @@
+.content .a {
+  margin: auto;
+  width: fit-content;
+  box-shadow: 0px 1px 5px 1px black;
+}
+.content .a header {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px;
+}
+.content .a nav ul {
+  margin: 20px;
+  padding: 0px;
+}
+.content .a nav ul li {
+  display: inline;
+}
+.content .a article section {
+  margin: 20px;
+  margin-bottom: 60px;
+}
+.content .a article section header {
+  margin: 0px;
+}
+.content .a footer {
+  margin-left: 20px;
+}
+
+.content .b {
+  margin: auto;
+  width: fit-content;
+  box-shadow: 0px 1px 5px 1px black;
+}
+.content .b header {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px;
+}
+.content .b nav p {
+  margin: 20px;
+}
+.content .b nav ul {
+  margin: 20px;
+}
+.content .b article section {
+  margin: 20px;
+}
+.content .b article section header {
+  margin: 0px;
+}
