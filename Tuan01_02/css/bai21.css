@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.content {
+  width: 100%;
+  margin: auto;
+  box-shadow: 0px 1px 5px 1px black;
+}
+#imgContainer, #introContainer {
+  width: fit-content;
+  margin: auto;
+}
+#intro {
+  font-family: monospace;
+  letter-spacing: 3px;
+  margin: 12px;
+}
+nav ul li {
+  display: inline-block;
+  margin: -2px;
+  padding: 8px 24px;
+  background-color: gray;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+aside {
+  float: left;
+  width: 20%;
+  background-color: lightgray;
+}
+#htmlTutorial {
+  margin: 18px;
+}
+#htmlTutorial p {
+  font-size: 25px;
+}
+#linkContainer {
+  margin: 14px;
+}
+#linkContainer ul {
+  list-style-type: none;
+}
+#linkContainer ul li {
+  margin-bottom: 5px;
+}
+#linkContainer ul li a {
+  text-decoration: none;
+  color: black;
+}
+article {
+  float: left;
+  width: 80%;
+}
+article h1 {
+  font-size: 60px;
+  margin: 12px;
+  text-decoration: none;
+}
+article div {
+  width: 100%;
+}
+article div a {
+  width: fit-content;
+  color: lime;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+article div a:nth-child(2) {
+  margin-left: 500px;
+}
+article section {
+  margin-top: 20px;
+}
+article section p {
+  font-size: 32px;
+  letter-spacing: 3px;
+  line-height: 45px;
+}
+article section p img {
+  float: left;
+  padding: 20px;
+}
